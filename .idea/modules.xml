@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-developer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-developer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snapdiet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/snapdiet.main.iml" />
     </modules>
   </component>
 </project>
