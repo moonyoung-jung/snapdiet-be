@@ -1,12 +1,17 @@
 spring:
-  application: name=springboot-developer
+  application: name=snapdiet
 
   datasource:
     url: jdbc:mysql://132.226.14.34:3306/testspring
     username: admin
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+jwt:
+  issuer: ajufresh@gmail.com
+  secret_key: 31180d53315d69e532adc1326b1d3fa98fda69963914b472a40c94babf7654d8
