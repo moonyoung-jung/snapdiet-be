@@ -11,7 +11,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
-jwt:
-  issuer: ajufresh@gmail.com
-  secret_key: 31180d53315d69e532adc1326b1d3fa98fda69963914b472a40c94babf7654d8
