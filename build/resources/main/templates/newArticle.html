@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 <body>
-<div class="p-5 mb-5 text-center</> bg-light">
+<div class="p-5 mb-5 text-center</>" style="background-color: #c1e0b8">
   <h1 class="mb-3">My Blog</h1>
   <h4 class="mb-3">블로그에 오신 것을 환영합니다.</h4>
 </div>
@@ -23,8 +23,8 @@
         <section class="mb-5">
           <textarea class="form-control h-25" rows="10" placeholder="내용" id="content" th:text="${article.content}"></textarea>
         </section>
-        <button th:if="${article.id} != null" type="button" id="modify-btn" class="btn btn-primary btn-sm">수정</button>
-        <button th:if="${article.id} == null" type="button" id="create-btn" class="btn btn-primary btn-sm">등록</button>
+        <button th:if="${article.id} != null" type="button" id="modify-btn" class="btn btn-primary btn-sm" style="background-color: green">수정</button>
+        <button th:if="${article.id} == null" type="button" id="create-btn" class="btn btn-primary btn-sm" style="background-color: green">등록</button>
       </article>
     </div>
   </div>
