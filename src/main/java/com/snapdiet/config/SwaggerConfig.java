@@ -1,4 +1,4 @@
-package me.shinsunyoung.springbootdeveloper.config;
+package com.snapdiet.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
